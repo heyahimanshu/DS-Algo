@@ -10,8 +10,8 @@ public:
     bool isPalindrome(string s){
         string cleaned ="";
         for(char ch : s){
-            if (isalnum(ch)){
-            cleaned += tolower(ch);
+            if(isalnum(ch)){
+                cleaned += tolower(ch);
             }
         }
         int n = cleaned.size();
